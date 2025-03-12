@@ -24,6 +24,18 @@
   color: var(--accent-color);
 }
 
+.keywordBlue {
+  color: rgb(84, 157, 215);
+}
+
+.keywordGreen {
+  color: rgb(75, 199, 174);
+}
+
+.keywordYellow {
+  color: rgb(212, 210, 168);
+}
+
 @media screen and (max-width: 600px) {
   .code {
     font-size: 0.85rem;

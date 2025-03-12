@@ -61,6 +61,7 @@
 
 .heading {
   margin-bottom: 1.5rem;
+  color: rgb(64, 102, 63);
 }
 
 @media screen and (max-width: 1200px) {
