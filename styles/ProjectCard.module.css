@@ -4,27 +4,36 @@
   flex-direction: column;
   border-radius: 20px;
   cursor: pointer;
-  width: 320px; /* Légèrement plus large pour mieux respirer */
-  height: 420px; /* Ajusté pour plus d'espace */
+  width: 280px;
+  height: 380px;
   overflow: hidden;
-  margin: 20px; /* Ajoute un espace entre les cartes */
-  padding: 10px; /* Ajoute un peu d'air à l'intérieur */
+  margin: 15px;
+  padding: 10px;
 }
 
 .imageContainer {
   width: 100%;
-  height: 160px; /* Un peu plus grand pour équilibrer */
+  height: 140px;
   position: relative;
+  overflow: hidden;
 }
 
 .imageContainer img {
   object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.imageContainer:hover img {
+  transform: scale(1.05);
+  filter: brightness(0.85);
 }
 
 .content {
-  padding: 1.2rem; /* Augmente légèrement l'espacement */
+  padding: 1rem;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -34,7 +43,7 @@
 .tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px; /* Espacement entre les tags */
+  gap: 8px;
   margin: 0.5rem 0 1rem;
 }
 
@@ -47,15 +56,15 @@
 
 .cta {
   display: flex;
-  gap: 1.2rem; /* Augmente l’espacement entre les liens */
+  gap: 1rem;
   margin-top: auto;
 }
 
 .underline {
   padding: 0.3rem 0;
   font-size: 1rem;
-  font-family: "Poppins", "Inter", "Roboto", sans-serif; /* Police moderne et lisible */
-  font-weight: 500; /* Texte légèrement plus épais */
+  font-family: "Poppins", "Inter", "Roboto", sans-serif;
+  font-weight: 500;
   text-decoration: none;
   color: white;
   transition: background-size 0.25s ease-in, color 0.2s ease-in;

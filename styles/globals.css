@@ -77,6 +77,12 @@
   background: rgba(100, 30, 150, 0.25);
 }
 
+.python {
+  border: 0.1rem solid rgb(246, 216, 85);
+}
+.dotnet:hover {
+  background: rgba(246, 216, 85, 0.25);
+}
 /* VB (Visual Basic) */
 .vb {
   border: 0.1rem solid rgb(149, 82, 176); /* Violet clair pour Visual Basic */

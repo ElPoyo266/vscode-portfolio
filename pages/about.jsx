@@ -1,8 +1,15 @@
+import { useState } from 'react';
+import AboutCode from '../components/AboutCode';
+import styles from '../styles/AboutPage.module.css';
+
 const AboutPage = () => {
   return (
-    <>
-      <h3>A Little Bit About Me</h3>
-    </>
+    <div className={styles.container}>
+      <div>
+        <h3 className={styles.heading}>/* About Me */</h3>
+        <AboutCode />
+      </div>
+    </div>
   );
 };
 

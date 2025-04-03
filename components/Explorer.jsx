@@ -6,24 +6,24 @@ import styles from '../styles/Explorer.module.css';
 
 const explorerItems = [
   {
-    name: 'home.jsx',
+    name: 'home.dart',
     path: '/',
-    icon: 'react_icon.svg',
+    icon: 'dart_icon.svg',
   },
   {
-    name: 'about.html',
+    name: 'about.md',
     path: '/about',
-    icon: 'html_icon.svg',
+    icon: 'md_icon.svg',
   },
   {
-    name: 'contact.css',
+    name: 'contact.java',
     path: '/contact',
-    icon: 'css_icon.svg',
+    icon: 'java_icon.svg',
   },
   {
-    name: 'projects.js',
+    name: 'projects.cs',
     path: '/projects',
-    icon: 'js_icon.svg',
+    icon: 'csharp_icon.svg',
   },
 ];
 

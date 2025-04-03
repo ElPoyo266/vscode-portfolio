@@ -2,45 +2,13 @@
   {
     "id": 1,
     "name": "PinMyRoad",
-    "image": "https://imgur.com/ldnLiyI.png",
+    "image": "https://imgur.com/Mz6Bvgk.png",
     "description": "An Android App for sharing your travels with your friends",
     "tags": ["android", "kotlin", "firebase"],
     "source_code": "https://forge.univ-lyon1.fr/p2209250/pinmymap"
   },
   {
     "id": 2,
-    "name": "PinMyRoadFlutter",
-    "image": "https://imgur.com/ydRBO5c.png",
-    "description": "The flutter port of PinMyRoad",
-    "tags": ["flutter", "firebase", "android", "dart"],
-    "source_code": "https://forge.univ-lyon1.fr/p2209250/pinmyroadflutter"
-  },
-  {
-    "id": 3,
-    "name": "PepperCompagnon",
-    "image": "https://imgur.com/jhXorNb.png",
-    "description": "Android app to help you take using the Pepper robot and use our PepperPhotoBox plugin",
-    "tags": ["android", "java", "pdf", "pepper-robot"],
-    "source_code": "https://github.com/ElPoyo266/PepperCompagnon"
-  },
-  {
-    "id": 4,
-    "name": "Fuel Finder",
-    "image": "https://imgur.com/5ud3HMD.png",
-    "description": "An Android App to help you find the cheapest gas station near you",
-    "tags": ["android", "java", "rest-api"],
-    "source_code": "https://github.com/ElPoyo266/Fuel_Finder"
-  },
-  {
-    "id": 5,
-    "name": "Awesome Runner²",
-    "image": "https://imgur.com/4YAxZcq.png",
-    "description": "A Windows runner game taking place in space",
-    "tags": ["C#", "unity", "rest-api"],
-    "source_code": "https://git.lagaudiere.uk/ElPoyo/AwesomeRunner"
-  },
-  {
-    "id": 6,
     "name": "EM2RP",
     "image": "https://imgur.com/pqSQV5k.jpeg",
     "description": "A project of building my own ERP dedicated to technical events management",
@@ -48,7 +16,47 @@
     "source_code": "https://git.lagaudiere.uk/ElPoyo/EM2RP"
   },
   {
+    "id": 3,
+    "name": "Awesome Runner²",
+    "image": "https://imgur.com/4YAxZcq.png",
+    "description": "A Windows runner game taking place in space",
+    "tags": ["C#", "unity", "rest-api"],
+    "source_code": "https://git.lagaudiere.uk/ElPoyo/AwesomeRunner"
+  },
+  {
+    "id": 4,
+    "name": "PinMyRoadFlutter",
+    "image": "https://imgur.com/ydRBO5c.png",
+    "description": "The flutter port of PinMyRoad",
+    "tags": ["flutter", "firebase", "android", "dart"],
+    "source_code": "https://forge.univ-lyon1.fr/p2209250/pinmyroadflutter"
+  },
+  {
+    "id": 5,
+    "name": "PepperCompagnon",
+    "image": "https://imgur.com/jhXorNb.png",
+    "description": "Android app to help you take using the Pepper robot and use our PepperPhotoBox plugin",
+    "tags": ["android", "java", "pdf", "pepper-robot"],
+    "source_code": "https://github.com/ElPoyo266/PepperCompagnon"
+  },
+  {
+    "id": 6,
+    "name": "Fuel Finder",
+    "image": "https://imgur.com/5ud3HMD.png",
+    "description": "An Android App to help you find the cheapest gas station near you",
+    "tags": ["android", "java", "rest-api"],
+    "source_code": "https://github.com/ElPoyo266/Fuel_Finder"
+  },
+  {
     "id": 7,
+    "name": "PepperPhotobox",
+    "image": "https://imgur.com/Qe1rVsF.png",
+    "description": "A plugin for the Pepper robot to take selfies with it and send the picture by email",
+    "tags": ["python", "pepper-robot", "choregraphe"],
+    "source_code" :"https://but-project.univ-lyon1.fr/media/uploads/session/%5B2023-2024%5D%20SAE%20BUT2/robot_pepper_selfiebox/Logiciel_-_S4.zip"
+  },
+  {
+    "id": 8,
     "name": "Secret projects",
     "image": "https://imgur.com/3c3jRLD.png",
     "description": "Somes confidential projects I can't share for privacy reasons, principally Blazor Web Apps, but also Windows apps.",
