@@ -4,48 +4,62 @@
   flex-direction: column;
   border-radius: 20px;
   cursor: pointer;
+  width: 320px; /* Légèrement plus large pour mieux respirer */
+  height: 420px; /* Ajusté pour plus d'espace */
+  overflow: hidden;
+  margin: 20px; /* Ajoute un espace entre les cartes */
+  padding: 10px; /* Ajoute un peu d'air à l'intérieur */
 }
 
-.card:hover {
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+.imageContainer {
+  width: 100%;
+  height: 160px; /* Un peu plus grand pour équilibrer */
+  position: relative;
+}
+
+.imageContainer img {
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .content {
-  padding: 1rem;
-  border-radius: 0 0 20px 20px;
-}
-
-.content p {
-  font-size: 0.8rem;
-  margin-top: 0.5rem;
+  padding: 1.2rem; /* Augmente légèrement l'espacement */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .tags {
   display: flex;
   flex-wrap: wrap;
+  gap: 8px; /* Espacement entre les tags */
   margin: 0.5rem 0 1rem;
 }
 
 .tags span {
-  margin: 0.5rem 0.5rem 0 0;
-  padding: 0.2rem 0.5rem;
+  padding: 0.3rem 0.6rem;
   border-radius: 20px;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   transition: all 0.2s;
 }
 
 .cta {
   display: flex;
-  gap: 1rem;
+  gap: 1.2rem; /* Augmente l’espacement entre les liens */
+  margin-top: auto;
 }
 
 .underline {
-  padding: 0.2rem 0;
-  font-size: 0.9rem;
-  letter-spacing: 0;
-  cursor: pointer;
-  color: white;
+  padding: 0.3rem 0;
+  font-size: 1rem;
+  font-family: "Poppins", "Inter", "Roboto", sans-serif; /* Police moderne et lisible */
+  font-weight: 500; /* Texte légèrement plus épais */
   text-decoration: none;
+  color: white;
+  transition: background-size 0.25s ease-in, color 0.2s ease-in;
+  
   background-image: linear-gradient(
     120deg,
     var(--accent-color) 100%,
@@ -54,9 +68,13 @@
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: 0 88%;
-  transition: background-size 0.25s ease-in;
 }
 
 .underline:hover {
   background-size: 100% 88%;
+  color: var(--accent-color);
+}
+
+.underline:visited {
+  color: white;
 }
